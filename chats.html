@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <!-- Botón de agregar usuario -->
+        <div class="add-user">
+            <button id="addUserButton">Agregar usuario</button>
+            <button id="deleteUserButton">Eliminar usuario</button>
+        </div>
+        
+        <div class="chat-list">
+            <!-- Users will be dynamically added here -->
+        </div>
+    </div>
+
+    <div class="main-chat">
+        <div class="chat-header">
+            <div>Selecciona un usuario</div>
+            <div>Opciones</div>
+        </div>
+        <div class="messages">
+            <!-- Messages will be dynamically added here -->
+        </div>
+        <div class="input-area">
+            <input type="text" id="inputMessage" placeholder="Escribe un mensaje...">
+            <button id="sendMessage">Enviar</button>
+        </div>
+    </div>
+    <script src="Scripts/script.js"></script>
+</body>
+</html>

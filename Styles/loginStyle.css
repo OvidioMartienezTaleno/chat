@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e; /* Fondo oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #2c2c2c; /* Fondo del contenedor oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra más oscura */
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #f4f4f9; /* Texto claro */
+}
+
+.input-container {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    color: #bbb; /* Texto claro para las etiquetas */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #555; /* Borde oscuro */
+    background-color: #3a3a3a; /* Fondo de los inputs oscuro */
+    color: #f4f4f9; /* Texto claro en inputs */
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: #888; /* Color placeholder en tono gris claro */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Color del botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #45a049; /* Color del botón al hacer hover */
+}
+
+.error {
+    color: #ff6b6b; /* Rojo claro para los errores */
+    margin-top: 10px;
+    display: none;
+}
